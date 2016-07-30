@@ -1,0 +1,127 @@
+/********************************************************
+    Project:   ThemeTim HTML (Shopify)
+    Build:     Bootstrap 3 +
+    Author:    ThemeTim
+    Version:   1.0
+********************************************************/
+
+
+/********************************************************
+    ## Common
+********************************************************/
+body{
+}
+a,.btn{
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+a:hover{
+    text-decoration: none;
+}
+a,.btn,.form-control{
+    border-radius: 0;
+}
+a,p{
+    letter-spacing: 1px;
+}
+p{
+    line-height: 26px;
+}
+.text-uppercase,.page-header{
+    text-transform: uppercase;
+}
+.page-header{
+    margin: 70px 0 20px;
+}
+.margin-null,.header-social,.header-info,.footer-social,.newsletter h3{
+    margin: 0;
+}
+.padding-null{
+    padding: 0;
+}
+.padding-gap-1,.parallax,.footer{
+    padding-top: 70px;
+}
+.padding-gap-2,.main-slider{
+    padding-bottom:70px;
+}
+.padding-gap-3{
+    padding-top:50px;
+}
+.padding-gap-4{
+    padding-bottom: 50px;
+}
+.padding-top-10 {
+    padding-top: 10px;
+}
+.padding-bottom-10,.footer-top{
+    padding-bottom: 10px;
+}
+.display-inline-b,.header-top .header-social a,.footer-social a,.footer-middle li a{
+    display: inline-block;
+}
+.overflow{
+    overflow: hidden;
+}
+.full-width,.footer-middle li a{
+    width: 100%;
+}
+/********************************************************
+    ## Header
+********************************************************/
+.header-top {
+    background: #f8f8f8;
+}
+.header-top .header-social a{
+    padding: 0 7px 0 0;
+}
+.header-middle .mini-cart{
+    margin-top: 25px;
+}
+.header-bottom{
+    background: #f8f8f8;
+}
+.header-bottom .navbar-default{
+    margin-bottom: 0;
+    height: inherit;
+    background: transparent;
+    border: 0;
+}
+/********************************************************
+    ## Home
+********************************************************/
+/********************************************************
+    ## Footer
+********************************************************/
+.footer-top{
+    background: #ddd;
+}
+.footer-social a{
+    margin-top: 10px;
+    border: 1px solid;
+    padding: 5px 9px;
+}
+.newsletter{
+    margin-top: 10px;
+}
+.newsletter h3{
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.footer-middle{
+    background: #f9f9f9;
+    padding-bottom: 40px;
+}
+.footer-middle h4{
+    margin-top: 40px;
+}
+.footer-middle li a{
+    padding: 5px 0;
+}
+.footer-bottom{
+    padding-top: 20px;
+    background: #ddd;
+}
