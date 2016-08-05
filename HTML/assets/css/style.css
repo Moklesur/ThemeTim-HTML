@@ -39,6 +39,15 @@ p{
 .margin-null,.header-social,.header-info,.footer-social,.newsletter h3{
     margin: 0;
 }
+.margin-to-20{
+    margin-top: 20px;
+}
+.margin-to-30{
+    margin-top: 30px;
+}
+.margin-bottom-20{
+    margin-bottom: 20px;
+}
 .padding-null{
     padding: 0;
 }
@@ -66,8 +75,14 @@ p{
 .overflow{
     overflow: hidden;
 }
-.full-width,.footer-middle li a{
+.full-width,.footer-middle li a,.product-wrap .product-hover,.product-wrap .product-overlay{
     width: 100%;
+}
+.position-r,.product-wrap,.product-image{
+    position: relative;
+}
+.position-a,.product-wrap .product-hover,.product-new,.product-sold{
+    position: absolute;
 }
 /********************************************************
     ## Header
@@ -93,6 +108,45 @@ p{
 /********************************************************
     ## Home
 ********************************************************/
+
+
+
+/********************************************************
+    ## Product
+********************************************************/
+.product-wrap,.product-wrap .product-overlay {
+    overflow: hidden;
+}
+.product-wrap .product-overlay {
+    background: rgba(0, 0, 0, 0.35);
+    position: absolute;
+}
+.product-wrap .product-hover,.product-wrap .product-overlay{
+    height: 100%;
+    top: -100%;
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    -ms-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+}
+.product-wrap:hover .product-overlay{
+    top: 0;
+}
+.product-wrap:hover .product-hover {
+    top: 10%;
+    height: 46%;
+}
+.product-new,.product-sold{
+    top: 0;
+}
+.product-new{
+    left: 0;
+    padding: 5px;
+}
+.product-sold{
+    right: 0;
+}
 /********************************************************
     ## Footer
 ********************************************************/
