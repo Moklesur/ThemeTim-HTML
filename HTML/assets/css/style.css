@@ -42,6 +42,9 @@ figcaption{
 .margin-null,.header-social,.header-info,.footer-social,.newsletter h3{
     margin: 0;
 }
+.pagination>li:last-child>a, .pagination>li:last-child>span,.pagination>li:first-child>a, .pagination>li:first-child>span{
+    border-radius: 0;
+}
 .margin-to-20{
     margin-top: 20px;
 }
