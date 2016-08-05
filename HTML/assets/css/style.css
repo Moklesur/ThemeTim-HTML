@@ -28,7 +28,10 @@ a,p{
     letter-spacing: 1px;
 }
 p{
-    line-height: 26px;
+    line-height: 28px;
+}
+figcaption{
+    background-color: #2e3740;
 }
 .text-uppercase,.page-header{
     text-transform: uppercase;
@@ -109,8 +112,23 @@ p{
     ## Home
 ********************************************************/
 
-
-
+/********************************************************
+    ## Collections Page
+********************************************************/
+.widget ul li a{
+    margin: 0;
+    padding: 10px 15px;
+    border-bottom: #F9F7F7 1px solid;
+    width: 100%;
+    display: block;
+}
+.widget figure{
+    -webkit-box-shadow:0 1px 1px rgba(46, 55, 64, 0.52);
+    -moz-box-shadow:0 1px 1px rgba(46, 55, 64, 0.52);
+    -o-box-shadow: 0 1px 1px rgba(46, 55, 64, 0.52);
+    -ms-box-shadow:0 1px 1px rgba(46, 55, 64, 0.52);
+    box-shadow: 0 1px 1px rgba(46, 55, 64, 0.52);
+}
 /********************************************************
     ## Product
 ********************************************************/
